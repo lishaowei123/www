@@ -1,0 +1,256 @@
+/* Web Weixin */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background: #efeff4;
+    line-height: 1.2;
+    height: 100%;
+}
+
+p {
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 20px 0;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/*scan confirm*/
+.confirm a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 9px 0px;
+}
+
+.confirm {
+    text-align: center;
+    color: #353535;
+    margin: 0px;
+    padding: 50px 15px 0px;
+}
+
+.section {
+    margin: 0px auto;
+}
+
+.headerIcon {
+    height: 120px;
+    background: url(/images/manage/login/LoginConnect_icon_web1fbca8.png) no-repeat center;
+    margin-bottom: 25px;
+    background-size: contain;
+}
+
+.sectionPannel {
+    margin: 0px;
+    margin-bottom: 25px;
+    padding: 0px;
+}
+
+.sectionPannel .sectionContent {
+    padding: 5px 0px;
+}
+
+.sectionPannel .sectionContent .firstP {
+    margin-bottom: 5px;
+}
+
+.sectionPannel .sectionContent .lastP {
+    margin-top: 0px;
+}
+
+.confirm .greenBtn {
+    font-size: 18px;
+    padding: 9px 0px;
+    color: white;
+    display: block;
+    text-align: center;
+    width: 100%;
+    background: #04BE02;
+    border: 1px solid #03B401;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background: -webkit-linear-gradient(#04BE02, #04BE02);
+}
+
+.confirm .redBtn {
+    color: #FFF;
+    font-size: 18px;
+    border: 1px solid #DE4949;
+    background-color: #F24D4D;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 29px;
+    margin-top: 15px;
+}
+
+.btm_link {
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    width: 100%;
+    margin-left: -15px;
+}
+
+.btm_link a {
+    color: #007aff;
+    font-size: 14px;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* other */
+.iconTitle {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 120px;
+    height: 120px;
+}
+
+.iconTitleWebWx {
+    background-image: url(/images/manage/login/connectkeyboad_icon14eee4.png);
+    width: 121px;
+    height: 126px;
+    margin-top: 40px;
+}
+
+.iconTitleErrorCommon {
+    background-image: url(/images/manage/login/icon_login_failure_ios7@1x1c9f0d.png);
+}
+
+.iconTitleErrorQrCode {
+    background-image: url(/images/manage/login/icon_login_qrcord_ios7@1x1c9f0d.png);
+}
+
+.iconTitleNoAuth {
+    background-image: url(/images/manage/login/no120.png);
+}
+
+.iconTitleCloseacct {
+    background-image: url(/images/manage/login/DeleteAccount@1x.png);
+    margin: 15px 0 5px 0
+}
+
+.iconTitleErrorLeakIe {
+    background-image: url(/images/manage/login/webwechatlogin_ieicon.png);
+}
+
+.header {
+    padding-top: 20px;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    .headerIcon {
+        background-image: url(/images/manage/login/LoginConnect_icon_web@2x1fbca8.png);
+        -webkit-background-size: contain;
+        background-size: contain;
+    }
+
+    .iconTitleWebWx {
+        background-image: url(/images/manage/login/connectkeyboad_icon14eee4.png);
+        width: 121px;
+        height: 126px;
+        margin-top: 40px;
+    }
+
+    .iconTitleErrorCommon {
+        background-image: url(/images/manage/login/icon_login_failure_ios7@2x1c9f0d.png);
+        -webkit-background-size: 120px;
+        background-size: 120px;
+    }
+
+    .iconTitleErrorQrCode {
+        background-image: url(/images/manage/login/icon_login_qrcord_ios7@2x1c9f0d.png);
+        -webkit-background-size: 120px;
+        background-size: 120px;
+    }
+
+    .iconTitleNoAuth {
+        background-image: url(/images/manage/login/no240.png);
+        -webkit-background-size: 120px;
+        background-size: 120px;
+    }
+
+    .iconTitleCloseacct {
+        background-image: url(/images/manage/login/DeleteAccount@2x.png);
+        -webkit-background-size: 126px 131px;
+        background-size: 126px 131px;
+    }
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+    .headerIcon {
+        background-image: url(/images/manage/login/LoginConnect_icon_web@2x1fbca8.png);
+        -webkit-background-size: contain;
+        background-size: contain;
+    }
+
+    .iconTitleWebWx {
+        background-image: url(/images/manage/login/connectkeyboad_icon14eee4.png);
+        width: 121px;
+        height: 126px;
+        margin-top: 40px;
+    }
+
+    .iconTitleErrorCommon {
+        background-image: url(/images/manage/login/icon_login_failure_ios7@2x1c9f0d.png);
+        -webkit-background-size: 120px;
+        background-size: 120px;
+    }
+
+    .iconTitleErrorQrCode {
+        background-image: url(/images/manage/login/icon_login_qrcord_ios7@2x1c9f0d.png);
+        -webkit-background-size: 120px;
+        background-size: 120px;
+    }
+
+    .iconTitleNoAuth {
+        background-image: url(/images/manage/login/no240.png);
+        -webkit-background-size: 120px;
+        background-size: 120px;
+    }
+
+    .iconTitleCloseacct {
+        background-image: url(/images/manage/login/DeleteAccount@2x.png);
+        -webkit-background-size: 126px 131px;
+        background-size: 126px 131px;
+    }
+}
+
+/* 2014.8.18 Edited by wrynn */
+@media screen and (min-width: 480px) {
+    .btm_link {
+        text-align: center;
+        width: 100%;
+        position: inherit;
+        margin-left: 0px;
+        padding: 15px 0;
+    }
+}

@@ -1,0 +1,82 @@
+/*左侧组织架构和右侧员工列表*/
+.left-div, .right-div {
+    border: 1px solid #ddd;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.left-div h4, .right-div h4 {
+    margin-bottom: 0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.left-div .head-div {
+    color: #434a54;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.left-div .head-div .head-name-div {
+    padding: 10px 10px 10px 20px;
+    position: relative;
+}
+
+.left-div .head-div .head-name-div div {
+    padding-right: 15px;
+}
+
+.left-div .head-div .fa {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 24px;
+    line-height: 20px;
+    padding-right: 10px;
+    color: #434a54 !important;
+}
+
+.head-div ul {
+    padding: 0;
+    display: none;
+}
+
+.left-div ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.head-name-div.active, .head-name-div:hover, .left-div ul li.active, .left-div ul li:hover, .move-container ul li.active, .move-container ul li:hover {
+    background: #f5f5f5;
+    color: #39F;
+}
+
+/*移动员工弹框*/
+.move-container .panel-title {
+    float: none;
+}
+
+.move-container .panel-body {
+    padding: 0;
+}
+
+.move-container .panel-body .form-group {
+    margin-top: 13px;
+    margin-bottom: 3px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.move-container .panel-body div:last-child {
+    border-top: 1px solid #ddd;
+    padding: 10px 0 6px;
+}
+
+.move-container ul {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.move-container ul li {
+    padding: 10px 10px 10px 20px;
+}
